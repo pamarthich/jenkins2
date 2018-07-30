@@ -445,6 +445,26 @@
             </build>
         </profile>
    </profiles>
+<repositories>
+    <repository>
+      <id>art-1</id>
+      <name>Central Repository</name>
+      <url>http://34.214.174.11:8081/artifactory/myrepo</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+</repositories>
+
+<distributionManagement>
+    <snapshotRepository>
+      <id>earthport</id>
+      <uniqueVersion>false</uniqueVersion>
+          <name>Build Server Snapshot Repository</name>
+          <url>http://34.214.174.11:8081/artifactory/myrepo</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <url>demopetclinic</url>
 </project>
