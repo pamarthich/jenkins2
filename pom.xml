@@ -459,9 +459,9 @@
 
 <distributionManagement>
     <snapshotRepository>
-      <id>earthport</id>
+      <id>art-1</id>
       <uniqueVersion>false</uniqueVersion>
-          <name>Build Server Snapshot Repository</name>
+          <name>Central Repository</name>
           <url>http://34.214.174.11:8081/artifactory/myrepo</url>
     </snapshotRepository>
 </distributionManagement>
