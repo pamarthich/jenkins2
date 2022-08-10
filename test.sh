@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo ${WORKSPACE}
+workspace=$(echo ${WORKSPACE})
