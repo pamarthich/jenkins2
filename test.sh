@@ -2,4 +2,4 @@
 
 workspace=$(echo ${WORKSPACE})
 
-echo $workspace
+echo " Work Space Directory is: $workspace"
